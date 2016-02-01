@@ -1,0 +1,23 @@
+{
+  "name": "wt-maze",
+  "version": "0.0.1",
+  "description": "Make mazes as webtasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Stephen Mizell",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "nock": "^7.0.2"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "lodash": "^4.1.0",
+    "qs": "^6.0.2",
+    "request": "^2.69.0"
+  }
+}
