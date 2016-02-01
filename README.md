@@ -10,7 +10,8 @@ create their own client to solve the maze.
 
 ## Usage
 
-1. You'll need to create a webtask server from [server.js](./server.js)
+1. You'll need to create a webtask server from [server.js](./server.js) (you
+   need to edit the maze URL in the file before you can use)
 1. Next, create a webtask client from [client.js](./client.js)
 1. Finally, point your client at your server with a query parameter
    `?mazeUrl=<SERVER_URL>` and wait for it to solve the maze.
