@@ -15,6 +15,11 @@ create their own client to solve the maze.
 1. Finally, point your client at your server with a query parameter
    `?mazeUrl=<SERVER_URL>` and wait for it to solve the maze.
 
+## Developing
+
+All relevant code is in [server.js](./server.js) or [client.js](./client.js). To
+run the tests, use `npm test`.
+
 ## Designing Your Own Maze
 
 To come up with a maze on your own, draw out a square maze on a piece of paper
